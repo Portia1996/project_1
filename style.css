@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: #240a34;
 }
@@ -31,32 +35,28 @@ body {
 
 nav {
   justify-content: center;
-  display: flex;
+  display: flex !important;
   background-color: #492e87;
   color: white;
+  border: 1px white;
 }
 nav ul li {
   padding: 20px;
   margin: 0px;
   display: inline-block;
   font-weight: bold;
-  letter-spacing: 1px;
-  word-spacing: 4px;
+  justify-content: center;
+  border: solid 1px rgb(84, 84, 84);
+  border-right: none;
+ 
 }
-nav ul li a {
+nav a {
   justify-content: space-between;
-  /* border-right: 1px solid grey; */
-  border-color: rgb(86, 86, 86);
-  border-width: 1px;
-  padding: 21px;
-  border-top-color: #492e87;
-  border-bottom-color: #492e87;
-  border-right-color: #492e87;
+  padding: 15px;
 }
 nav ul li a:hover {
-  /* color: rgb(133, 131, 131); */
   transition: all 0.2s ease-in-out;
-  background-color: blue;
-  padding: 20px;
-  border-style: blue;
+  colo
+
+  /* padding: 20px; */
 }
